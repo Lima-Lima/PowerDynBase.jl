@@ -85,7 +85,7 @@ export NetworkRHS, GridDynamics
 export SystemSize, Nodes, AdmittanceLaplacian, masses, differentials
 export State
 export internalsymbolsof, internaldsymbolsof, internaloutsymbolsof, parametersof
-
+export gplot
 export convert, promote_rule # only so the autodocs work properly
 
 end # module DPSABase
