@@ -72,6 +72,9 @@ include("GridDynamics.jl")
 # States (kind of an interface)
 include("States.jl")
 
+# Plotting functions using LightGraph.jl
+include("Plot.jl")
+
 # export of the main types and functions
 export GridDynamicsError, NodeDynamicsError, MissingParameterError, StateError
 export OrdinaryNodeDynamics, OrdinaryNodeDynamicsWithMass
